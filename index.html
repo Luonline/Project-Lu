@@ -11,6 +11,9 @@
     <!-- Angular Material CSS -->
     <link rel="stylesheet" href="./assets/libs/angular-material/angular-material.css">
 
+    <!-- Personal Styles-->
+    <link rel="stylesheet" href="./assets/css/angular-help.css">
+
 </head>
 <body>
 
@@ -21,6 +24,8 @@
     <script src="./assets/libs/angular-animate/angular-animate.js"></script>
     <script src="./assets/libs/angular-material/angular-material.js"></script>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!-- Controller div -->
     <div ng-app="myApp" ng-controller="myCtrl">
 
@@ -28,21 +33,17 @@
         <md-content class="md-padding">
             <md-nav-bar md-selected-nav-item="currentNavItem">
                 <md-nav-item md-nav-href="#/" name="home">Home</md-nav-item>
-                <md-nav-item md-nav-href="#profActivities" name="professionalActivities">Professional Activities</md-nav-item>
+                <md-nav-item md-nav-href="#experience" name="experience">Experience</md-nav-item>
                 <md-nav-item md-nav-href="#personalCorner" name="personalCorner">Personal Corner</md-nav-item>
                 <md-nav-item md-nav-href="#sandbox" name="sandbox">Sandbox</md-nav-item>
             </md-nav-bar>
         </md-content>
         
-
+    
+    
+        
         <!-- ng-routed view -->
         <ng-view></ng-view>
-
-
-
-
-
-
 
 
     <!-- End Controller -->
@@ -50,8 +51,15 @@
 
 
 
+
+
+    
+
+
+
     <!-- Controller JS -->
     <script src="./assets/js/controller.js"></script>
+    
 
 </body>
 </html>

@@ -4,8 +4,8 @@ app.config(function($routeProvider) {
     .when("/", {
         templateUrl : "pages/home.html"
     })
-    .when("/profActivities", {
-        templateUrl : "pages/professionalActivities.html"
+    .when("/experience", {
+        templateUrl : "pages/experience.html"
     })
     .when("/personalCorner", {
         templateUrl : "pages/personalCorner.html"
@@ -16,4 +16,12 @@ app.config(function($routeProvider) {
 });
 app.controller('myCtrl', function($scope) {
     $scope.currentNavItem = 'home';
+});
+
+app.controller('DemoCtrl', function($scope) {
+  $scope.industryKnowledge = [
+    "test",
+    "test2",
+    "test3",
+  ];
 });
