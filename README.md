@@ -22,6 +22,7 @@ Project Lu is a personal web-space where I can explore and create content using 
 * Browser Tab
 * Social Icons
 * Toasts for social updates
+* BibTeX generator
 
 
 
