@@ -1,12 +1,15 @@
 # Project Lu
 
-Project Lu is a personal web-space where I can explore and create content using overly-complicated tools. Web-creation and design is a side-hobby of mine, and if you notice anything that could be improved programmically, let me know!
+Project Lu is a personal web-space where I can explore and create content using overly-complicated tools (why make an easy blog?). Web-creation and design is a side-hobby of mine, and if you notice anything that could be improved programmically, let me know!
 
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ### Frontend
 
-* AngularJS + [Angular Material](https://material.angularjs.org)
-* [Material Design Icons](http://google.github.io/material-design-icons/#getting-icons)
+* AngularJS -v 7.3
+* AngularJS Material -v 1.1.12
 
 
 ### Features & Plans
@@ -14,15 +17,10 @@ Project Lu is a personal web-space where I can explore and create content using 
 * Navigation (ng-route)
     * Home Page
     * Experience
-    * Personal Corner
     * Sandbox
-* [Custom Theme](https://material.angularjs.org/latest/Theming/03_configuring_a_theme)
-* Bootstrap 4
 * Fancy scroll bar
 * Browser Tab
 * Social Icons
-* Toasts for social updates
-* BibTeX generator
-
-
-
+* Toasts for social updates [todo]
+* BibTeX generator [todo]
+* Interactive furnature planner [todo]
