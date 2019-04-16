@@ -18,9 +18,9 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
     * Home Page
     * Experience
     * Sandbox
-* Fancy scroll bar
-* Browser Tab
-* Social Icons
+* Fancy scroll bar [todo]
+* Browser Tab [todo]
+* Social Icons [todo]
 * Toasts for social updates [todo]
 * BibTeX generator [todo]
-* Interactive furnature planner [todo]
+* Interactive lightweight furniture planner [todo]
