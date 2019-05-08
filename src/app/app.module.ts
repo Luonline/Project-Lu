@@ -2,6 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCheckboxModule, MatChipsModule} from '@angular/material';
+import {MatCardModule} from '@angular/material/card';
+import {MatDividerModule} from '@angular/material/divider';
+
+
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,7 +27,9 @@ import { ExperienceComponent } from './experience/experience.component';
     BrowserAnimationsModule,
     MatButtonModule, 
     MatCheckboxModule,
-    MatChipsModule
+    MatChipsModule,
+    MatCardModule,
+    MatDividerModule
     
   ],
   providers: [],
