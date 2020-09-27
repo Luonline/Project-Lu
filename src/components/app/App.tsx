@@ -3,7 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Home from 'components/routes/home/home';
 import PageNotFound from 'components/routes/404/404';
 
-const App = () => {
+export default () => {
   return (
     <BrowserRouter>
       <Switch>
@@ -14,4 +14,3 @@ const App = () => {
   );
 }
 
-export default App;
